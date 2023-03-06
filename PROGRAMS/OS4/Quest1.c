@@ -93,7 +93,7 @@ void compute_median(void *arg)
     // Calculate the elapsed time
     double elapsed_time = ((double)(end_time - start_time)) / CLOCKS_PER_SEC;
     // Print the elapsed time
-    printf("Median computation took %.4f seconds.\n", elapsed_time);
+    printf("Median computation took %f seconds.\n", elapsed_time);
     // Exit the thread
     pthread_exit(NULL);
 }
