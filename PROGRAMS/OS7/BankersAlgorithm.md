@@ -1,3 +1,8 @@
+## Problem:
+Write a C program to implement Banker's Algorithm and print the safe sequence
+
+## Code:
+```c
 #include <stdio.h>
 
 void main()
@@ -87,3 +92,4 @@ A:
     printf(">\n");
     printf("Thus request is granted\n");
 }
+```
