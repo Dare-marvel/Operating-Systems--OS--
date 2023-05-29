@@ -1,3 +1,6 @@
+## Problem:
+Write a C program to calculate the Page Number and Page Offset with given virtual address
+
 ## Code:
 ```c
 #include <stdio.h>
