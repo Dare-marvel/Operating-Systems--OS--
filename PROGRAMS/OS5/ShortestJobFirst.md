@@ -1,18 +1,23 @@
-// Problem: 
-// With the increasing number of devotees visiting the temple, the wait time for "Dev Darshan" has become longer, causing inconvenience to the devotees. This has resulted in a need for a more efficient system that can manage the waiting queue and reduce the wait time for "Dev Darshan".
+## Problem: 
+With the increasing number of devotees visiting the temple, the wait time for "Dev Darshan" has become longer, causing inconvenience to the devotees. This has resulted in a need for a more efficient system that can manage the waiting queue and reduce the wait time for "Dev Darshan".
 
-// Goal: 
-// To design and implement a CPU scheduling algorithm for the "Dev Darshan" system in the temple that can effectively manage the waiting queue, minimize the wait time for devotees, and improve the overall experience of visiting the temple.
+### Goal: 
+To design and implement a CPU scheduling algorithm for the "Dev Darshan" system in the temple that can effectively manage the waiting queue, minimize the wait time for devotees, and improve the overall experience of visiting the temple.
 
-// Scope: 
-// The CPU scheduling algorithm will be implemented in the existing "Dev Darshan" system, and will consider the following factors:
-// The number of devotees waiting in the queue.
-// The priority of each devotee, such as senior citizens, children, and differently-abled individuals.
-// The time taken by each devotee to complete "Dev Darshan".
-// The availability of resources, such as the number of "Dev Darshan" counters and the capacity of the temple.
-// The solution will be tested and evaluated based on its ability to reduce the wait time for devotees, improve the utilization of resources, and ensure fairness and equality in the allocation of resources.
-// Give the solution with example of Dev darshan using CPU scheduling algorithm 
+### Scope: 
+The CPU scheduling algorithm will be implemented in the existing "Dev Darshan" system, and will consider the following factors:<br>
+The number of devotees waiting in the queue.<br>
+The priority of each devotee, such as senior citizens, children, and differently-abled individuals.<br>
+The time taken by each devotee to complete "Dev Darshan".<br>
+The availability of resources, such as the number of "Dev Darshan" counters and the capacity of the temple.<br>
+The solution will be tested and evaluated based on its ability to reduce the wait time for devotees, improve the utilization of resources, and ensure fairness and equality in the allocation of resources.<br>
+Give the solution with example of Dev darshan using CPU scheduling algorithm<br> 
 
+### Solution:
+I have solved this problem using Shortest Job First Algorithm
+
+## Code:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -84,7 +89,7 @@ int main()
 
     printf("Enter the priority according to this scheme\n1 - Normal People\n2 - Children\n3 - Senior Citizens\n4 - Specially Abled\n");
 
-    printf("Enter the burst time and priority of each process \n");
+    printf("Enter the darshan time(burst time) and priority of each person(process) \n");
     for (int i = 0; i < n; i++)
     {
         scanf("%d %d", &arr[i][1], &arr[i][4]);
@@ -134,3 +139,4 @@ int main()
 
     return 0;
 }
+```
