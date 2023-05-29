@@ -1,3 +1,6 @@
+## Problem:
+Write a program to prevent destructive update of files by locking as follows: Suppose the inode contains a new permission setting such that it allows only one process at a time to open the filefor writing, but many processes can open the file for reading.
+
 ## Code:
 ```c
 #include <stdio.h>
