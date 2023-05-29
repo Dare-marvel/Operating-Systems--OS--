@@ -1,4 +1,5 @@
-## Problem : Write a C program to give solution to Dining Philosophers problem using semaphores
+## Problem : 
+Write a C program to give solution to Dining Philosophers problem using semaphores
 
 ### Errors that you might face:
 If you are facing error that phtread library is not recognized by vs-code watch this video : [Click here](https://www.youtube.com/watch?v=aVyeJQuSFEU&ab_channel=ArslanBegmyradov)
