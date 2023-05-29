@@ -1,20 +1,36 @@
-// If you are facing error that phtread library is not recognized by vs-code watch this video : https://www.youtube.com/watch?v=aVyeJQuSFEU&ab_channel=ArslanBegmyradov
+## Problem : Write a C program to give solution to Dining Philosophers problem using semaphores
 
+### Errors that you might face:
+If you are facing error that phtread library is not recognized by vs-code watch this video : [Click here](https://www.youtube.com/watch?v=aVyeJQuSFEU&ab_channel=ArslanBegmyradov)
+
+### How to Compile and run this code:
+#### Linux:
+* To compile
+```
+gcc -pthread dining_philosophers.c -o dining_philosophers
+```
+* To run
+```
+./dining_philosophers.exe
+```
+#### Windows:
+* To compile
+```
+gcc -g -pthread dining_philosophers.c -o dining_philosophers
+```
+* To run
+```
+./dining_philosophers.exe
+```
+
+## Code:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
 #include <unistd.h>
 #include <pthread.h>
-
-/*
-use the pthread flag with gcc to compile this code
-~$ gcc -pthread dining_philosophers.c -o dining_philosophers
-
-On windows : To compile and run
-gcc -g -pthread dining_philosophers.c -o dining_philosophers
-./dining_philosophers.exe
-*/
 
 pthread_t *philosophers;         // Array of threads representing philosophers
 pthread_mutex_t *forks;          // Array of mutexes representing forks
@@ -101,3 +117,4 @@ int main(void){
 
     return 0;
 }
+```
