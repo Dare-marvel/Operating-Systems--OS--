@@ -1,8 +1,11 @@
-// Write a multithreaded program that calculates various statistical values for a list of numbers. 
-// This program will be passed a series of numbers on the command line and will then create three separate worker threads. 
-// One thread will determine the average of the numbers, the second will determine the maximum value, 
-// and the third will determine the median value. (Using Pthread library) also record time taken by each thread
+### Question - 1
+Write a multithreaded program that calculates various statistical values for a list of numbers. 
+This program will be passed a series of numbers on the command line and will then `create three separate worker threads`. 
+`One` thread will determine the `average of the numbers`, the `second` will determine the `maximum value`, 
+and the `third` will determine the `median value`. (Using Pthread library) also record time taken by each thread
 
+### Code:
+```c
 #include <pthread.h>  // Import the pthread library for multithreading
 #include <stdio.h>    // Import standard input and output functions
 #include <stdlib.h>   // Import standard library functions
@@ -134,3 +137,4 @@ int main(int argc, char* argv[]) {
     free(numbers);
     return 0;
 }
+```
