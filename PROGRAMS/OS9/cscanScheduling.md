@@ -1,3 +1,6 @@
+## Problem:
+Write a C program to implement C-SCAN CPU Scheduling algorithm
+
 ## Code:
 ```c
 #include <stdio.h>
