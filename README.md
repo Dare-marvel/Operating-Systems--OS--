@@ -16,4 +16,15 @@
 * System Software 
 * Linkers and Loaders
 #### 1.2
+* Structures and Principles of OS
 * Types of Operating Systems
+### 2) Process Management
+#### 2.1 
+* Major Concepts of Processes
+* Major Concepts of Thread
+* UNIX Processes and Threads
+### 3) Process Co-ordination
+#### 3.1 
+* Process Synchronization
+
+
