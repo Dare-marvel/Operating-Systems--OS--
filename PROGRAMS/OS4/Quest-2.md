@@ -1,8 +1,11 @@
-// Write a program that creates a single thread that generates random numbers between 1 and 100. The
-// thread should run for a specified number of iterations, printing each generated number to the screen.
-// After the specified number of iterations, the thread should stop and the main program should print the
-// sum of all the generated numbers.Also record and display time taken by each thread
+### Question - 2
+Write a program that creates a single thread that generates random numbers between 1 and 100. The
+thread should run for a specified number of iterations, printing each generated number to the screen.
+After the specified number of iterations, the thread should stop and the main program should print the
+sum of all the generated numbers.Also record and display time taken by each thread
 
+### Code:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -36,3 +39,4 @@ void* generate_random_numbers(void* arg) {
     }
     pthread_exit(NULL);
 }
+```
