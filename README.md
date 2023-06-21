@@ -39,4 +39,12 @@
 |     | Demand Paging |
 |     | Allocation of Frames|
 |     | Thrashing |
-|5)   | File Management |
+|5)   | **File Management** |
+| 5.1 | _Storage Management_ |
+|     | Disk Structure |
+|     | Disk Scheduling, Management |
+| 5.2 | File System Implementation|
+|     | File System Structure |
+|     | Allocation methods |
+| 5.3 | Inodes |
+|     | Solved Examples|
