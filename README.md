@@ -30,3 +30,13 @@
 | 3.2 | _CPU Scheduling_ |
 |     | Sheduling Criteria, Algorithms |
 |     | _Deadlock_ |
+|     | Prevention, Detection(RAG) |
+|     | Avoidance(Banker's Algorithm) |
+|4)   | Memory Management |
+| 4.1 | Contiguous Allocation |
+|     | Non-Contiguous Allocation  |
+| 4.2 | Virtual Memory Management |
+|     | Demand Paging |
+|     | Allocation of Frames|
+|     | Thrashing |
+|5)   | File Management |
