@@ -5,7 +5,17 @@
   </a>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/Dare-marvel/Operating-Systems/total) ![Contributors](https://img.shields.io/github/contributors/Dare-marvel/Operating-Systems?color=dark-green) ![Issues](https://img.shields.io/github/issues/Dare-marvel/Operating-Systems) ![License](https://img.shields.io/github/license/Dare-marvel/Operating-Systems) 
+<hr>
+
+<p align="center" >
+
+<img src="https://img.shields.io/github/downloads/Dare-marvel/Operating-Systems/total" alt="Downloads" />
+<img src="https://img.shields.io/github/contributors/Dare-marvel/Operating-Systems?color=dark-green" alt="Contributors" />
+<img src="https://img.shields.io/github/issues/Dare-marvel/Operating-Systems" alt="Issues" />
+<img src="https://img.shields.io/github/license/Dare-marvel/Operating-Systems" alt="License" />
+
+</p>
+<hr>
 
 
 |Mod. no.| Chapter Name |
